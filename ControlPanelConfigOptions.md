@@ -186,14 +186,14 @@ In this list box, the user can select the Mod he wants to use.
 When the user clicks on "Save configuration", the selected module is written to "SelectedMod.lua"
 as:
 
-	require "./AI/USER_AI/selected_Mod.lua"
+	require "./AI_sakray/USER_AI/selected_Mod.lua"
 
 where "selected_Mod.lua" is the Mod that the user selected.
 
 SelectedMod.lua looks like this by default:
 
 	-- Please choose your mod here
-	require "./AI/USER_AI/Standard_Mod.lua"
+	require "./AI_sakray/USER_AI/Standard_Mod.lua"
 
 
 ### Language / Translation:
